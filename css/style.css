@@ -1,0 +1,237 @@
+*,img{
+  padding: 0px;
+  margin: 0px;
+}
+
+.descontos-bg{
+  background: rgb(184,129,108);
+}
+.descontos{
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.descontos-item{
+  color:white;
+  font-size: 100%;
+  font-family: 'Fredoka One', cursive;
+  text-transform: uppercase;
+
+}
+.header-bg{
+  background-color: #F1E4D4;
+}
+.header{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px 0;
+  font-family: 'Comic Neue', cursive;
+}
+.header-logo{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  font-size: 2.25em;
+  padding-top: 10px;
+}
+
+nav ul li{
+list-style: none;
+}
+
+.menu-nav ul{ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+.fotos-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #A09093;
+
+}
+.fotos-item{
+  flex:1;
+}
+.fotos img{
+  width: 100%;
+  flex-wrap: wrap;
+}
+.informacoes{
+  background-color: #A09093;
+  
+  margin:0 auto;
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.info{
+  width: 100%;
+  flex:1;
+  margin: 0 auto;
+}
+
+.informacoes-bloco{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+.informacoes-item{
+  justify-content: center;
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center;
+  flex:1;
+}
+.informacoes-item, p{
+ margin:0 auto;
+}
+.informacoes-itens{
+
+  padding: 15px;
+  flex-wrap: wrap;
+  flex:1;
+  text-align: center;
+}
+.informacoes-itens, p{
+  font-family: 'Gotu', sans-serif;
+  color:#fff;
+  font-size:100%;
+  justify-content: center;
+ 
+}
+.fotos-item{
+  padding: 0px;
+  margin: 0px;;
+}
+.container-produtos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 25px;
+  background-color: #F1E4D4;
+  
+}
+.produtos-items{
+  min-width: 260px;
+  padding-bottom: 5%;
+}
+.produtos-items span{
+  max-width: 300px;
+  margin:20px auto;
+  display: block;
+  font-size: 1.1em;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0 5px 0;
+  color: #222222;
+  font-family: 'Comic Neue', cursive;
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+}
+
+.produtos-items button{
+  width: 100%;
+  background-color: rgb(184,129,108);
+  border: 1px solid rgb(184,129,108);
+  color:#fff;
+  height: 10%;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  font-family: 'Comic Neue', cursive;
+
+}
+.redes{
+  background-color: #fff;
+}
+.container-redes{
+  height: 3%;
+  max-width: 960px;
+  margin:  0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.redes-itens{
+  justify-content: center;
+  padding-top: 15px;
+}
+.sub-footer{
+  
+  background-color: #A09093;
+}
+.container-footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.container-footer .titulos{
+  color: #fff;
+  font-family: 'Comic Neue', cursive;
+  font-size: 1.1em;
+  font-weight: none;
+  border: 1px solid #fff;
+  padding:10px;
+  justify-content: center;
+}
+.container-footer p{
+  max-width: 300px;
+  margin:20px auto;
+  display: block;
+  font-size: 0.8em;
+  justify-content: center;
+}
+.contatos{
+  background-color: #F2E5D5;
+}
+.container-contatos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: 0 auto;
+}
+.container-contatos p {
+  max-width: 300px;
+  margin:20px auto;
+  display: block;
+  font-size: 0.8em;
+  justify-content: center;
+  color:#222222;
+}
+.container-contatos .titulos-contatos{
+  color: #222222;
+  font-family: 'Comic Neue', cursive;
+  font-size: 1.1em;
+  font-weight: none;
+  padding:10px;
+  justify-content: center;
+}
+footer{
+  background-color: #F2E5D5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 2.25em;
+  padding-top: 10px;
+  font-family: 'Comic Neue', cursive;
+
+}
+
+footer p{
+  color: #222222;
+}
